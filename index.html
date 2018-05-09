@@ -1,282 +1,466 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Magnum</title>
-<meta name="description" content="">
-<meta name="author" content="">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>wapik Multiparpus Template</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-<!-- Favicons
-    ================================================== -->
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+        <link rel="stylesheet" href="fonts/stylesheet.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
 
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
 
-<!-- Stylesheet
-    ================================================== -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
-<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<!-- Header -->
-<header id="header">
-  <div class="intro">
-    <div class="container">
-      <div class="row">
-        <div class="intro-text">
-          <h1>Magnum</h1>
-          <hr>
-          <p>Graphic Design • Illustration • Photography</p>
-          <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
-      </div>
-    </div>
-  </div>
-</header>
-<!-- Navigation -->
-<div id="nav">
-  <nav class="navbar navbar-custom">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-      </div>
-      
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-main-collapse">
-        <ul class="nav navbar-nav">
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-          <li class="hidden"> <a href="#page-top"></a> </li>
-          <li> <a class="page-scroll" href="#about">About</a> </li>
-          <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
-          <li> <a class="page-scroll" href="#contact">Contact</a> </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</div>
-<!-- About Section -->
-<div id="about">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>About Me</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
-      <div class="col-md-8 col-md-offset-2">
-        <div class="about-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
-          <a href="#portfolio" class="btn btn-default btn-lg page-scroll">My Portfolio</a> </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Portfolio Section -->
-<div id="portfolio">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>Portfolio</h2>
-      <hr>
-    </div>
-    <div class="categories">
-      <ul class="cat">
-        <li>
-          <ol class="type">
-            <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".graphic">Graphic Design</a></li>
-            <li><a href="#" data-filter=".illustration">Illustration</a></li>
-            <li><a href="#" data-filter=".photography">Photography</a></li>
-          </ol>
-        </li>
-      </ul>
-      <div class="clearfix"></div>
-    </div>
-    <div class="row">
-      <div class="portfolio-items">
-        <div class="col-sm-6 col-md-3 col-lg-3 graphic">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 illustration">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 graphic">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 graphic">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 illustration">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 photography">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 photography">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 graphic">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 illustration">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 photography">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/10-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/10-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 photography">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/11-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/11-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 graphic">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/12-large.jpg" title="Project Title" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-              </div>
-              <img src="img/portfolio/12-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Contact Section -->
-<div id="contact" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Get In Touch</h2>
-      <hr>
-    </div>
-    <div class="col-md-8 col-md-offset-2">
-      <form name="sentMessage" id="contactForm" novalidate>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-              <p class="help-block text-danger"></p>
+        <link rel="stylesheet" href="css/customicon.css">
+        <link rel="stylesheet" href="css/linearicons.css">
+        <link rel="stylesheet" href="css/animate.css">
+
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="css/plugins.css" />
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="css/style.css">
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="css/responsive.css" />
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+        <header id="header" class="navbar-fixed-top">
+            <div class="container">
+                <div class="main_menu wow fadeInDown" data-wow-duration="2s">	
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand our_logo" href="#">Wapik</a>
+                                <div class="call_us">
+                                    <i class="fa fa-phone"></i>
+                                    +62 202 555 0117
+                                </div>	  
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="index.html">HOme</a></li>
+                                    <li><a href="aboutus.html">About Us</a></li>
+                                    <li><a href="pricing.html">Pricing</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="#" style="background:#6FB048;color:#fff;border-radius:2px;padding:5px 10px;margin-top:10px;">Get Stared</a></li>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container-fluid -->
+                    </nav>
+
+                </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-              <p class="help-block text-danger"></p>
+        </header>
+        <!--Home page style-->
+
+        <!-- Sections -->
+        <section id="bener" class="">
+            <div class="bener_overlay">
+                <div class="container">
+                    <div class="bener_content">
+                        <h2>Welcome to the Wapik</h2>
+                        <p>Welcome to the Wapik Welcome to the WapikWelcome to the WapikWelcome to the Wapik</p>
+                        <a href="" class="btn btn-md">Learn More</a>
+                    </div>
+                </div> <!-- /container -->
             </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-default btn-lg">Send Message</button>
-      </form>
-      <div class="social">
-        <ul>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-          <li><a href="#"><i class="fa fa-behance"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<div id="footer">
-  <div class="container text-center">
-    <div class="fnav">
-      <p>Copyright &copy; 2016 Magnum. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
-    </div>
-  </div>
-</div>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/nivo-lightbox.js"></script> 
-<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
-<script type="text/javascript" src="js/main.js"></script>
-</body>
+        </section>
+
+        <section id="our_features">
+            <div class="container">
+                <div class="features_top text-center">
+                    <h2 class="title_border">Best of our feature</h2>
+                    <div class="separator"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                </div>
+
+                <div class="features_contant">
+                    <div class="row">
+                        <div class="best_features_contant_top text-center">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="single_features">
+                                    <img src="img/ab1.png" alt="" />
+                                    <h2>loricons</h2>
+                                    <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4">
+                                <div class="single_features">
+                                    <img src="img/ab2.png" alt="" />
+                                    <h2>Creative Design</h2>
+                                    <p>Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4">
+                                <div class="single_features">
+                                    <img src="img/ab3.png" alt="" />
+                                    <h2>Photoshop and Sketch</h2>
+                                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="border_img clear"></div>
+                        <!-- Best Features Bottom -->
+                        <div class="best_features_bottom">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single_features_bottom">
+                                    <h2><i class="icon icon-global"></i> Cross Browser Compatibility</h2>
+                                    <p>Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single_features_bottom">
+                                    <h2><i class="icon icon-lightbulb"></i> Creative Idea</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single_features_bottom">
+                                    <h2><i class="lnr lnr-magic-wand"></i> Pixel Perfect</h2>
+                                    <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single_features_bottom">
+                                    <h2><i class="lnr lnr-cloud-download"></i> Free Forever and Ever</h2>
+                                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus.</p>
+                                </div>
+                            </div>
+
+                        </div><!-- End Best Features Bottom -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="looking">
+            <div class="container">
+                <div class="looking_top text-center">
+                    <h2>Looking for the perfect template to use?</h2>
+                    <div class="separator"></div>
+                    <p>Donec id elit non mi porta gravida at eget metus.</p>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="single_looking_img">
+                            <img src="img/iphone1.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="single_looking">
+                            <h2>Responsive Ready</h2>
+                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper.</p>
+                            <p><i class="fa fa-check-circle-o"></i>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                            <p><i class="fa fa-check-circle-o"></i>Donec id elit non mi porta gravida at eget metus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Looking Section -->
+
+        <section id="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="single_testimonial">
+                            <p>This theme is beautiful, elegant and easy to customize. I’ve been able to build an amazing site in just a minute. Thank you very much for creating this impressive template!</p>
+                            <span class="test_author">Valeria Boltneva</span>
+
+                            <span class="test_author2">Director of Acme.Inc</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="single_testimonial_img">
+                            <img src="img/test.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Testmonial Section -->
+
+        <section id="build" class="build sections">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="build_contant">
+                            <h2>Built with High Attention to Details</h2>
+                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                        <div class="build_img_rigth">
+                            <img src="img/build.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Build Section -->
+
+
+
+        <section id="pricing" class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="pricing_top">
+                        <h2>Pricing & Plan</h2>
+                        <div class="separator"></div>
+                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+                            Donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+
+					<div class="pricing_tabel_contant">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="single_pricing">
+                                    <div class="top_text">
+                                        <span>Basic</span>
+                                        <sub>$ 199</sub>
+                                        <sup>/month</sup>
+                                    </div>
+                                    <ul>
+                                        <li>Justo Fringilla</li>
+                                        <li>Mollis Sit Nullam</li>
+                                        <li>Ultricies Purus Amet</li>
+                                        <li>Cras Inceptos</li>
+                                    </ul>
+                                    <a href="" class="btn btn-primary btn-sm">Select Plan</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="single_pricing">
+                                    <div class="top_text">
+                                        <span>Basic</span>
+                                        <sub>$ 399</sub>
+                                        <sup>/month</sup>
+                                    </div>
+                                    <ul>
+                                        <li>Justo Fringilla</li>
+                                        <li>Mollis Sit Nullam</li>
+                                        <li>Ultricies Purus Amet</li>
+                                        <li>Cras Inceptos</li>
+                                    </ul>
+                                    <a href="" class="btn btn-primary btn-sm">Select Plan</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="single_pricing">
+                                    <div class="top_text">
+                                        <span>Basic</span>
+                                        <sub>$ 699</sub>
+                                        <sup>/month</sup>
+                                    </div>
+                                    <ul>
+                                        <li>Justo Fringilla</li>
+                                        <li>Mollis Sit Nullam</li>
+                                        <li>Ultricies Purus Amet</li>
+                                        <li>Cras Inceptos</li>
+                                    </ul>
+                                    <a href="" class="btn btn-primary btn-sm">Select Plan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+        </section><!-- End pricing Section -->
+
+        <section id="plans">
+            <div class="container">
+                <div class="plans_top text-center">
+                    <h2>Included with all Plans</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-6">
+                        <div class="single_plans">
+                            <ul>
+                                <li><i class="fa fa-check-circle-o"></i>Maecenas faucibus mollis interdum</li>
+                                <li><i class="fa fa-check-circle-o"></i>Cras justo odio, dapibus ac facilisis</li>
+                                <li><i class="fa fa-check-circle-o"></i>Fringilla Mattis</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-6">
+                        <div class="single_plans">
+                            <ul>
+                                <li><i class="fa fa-check-circle-o"></i>Maecenas faucibus mollis interdum</li>
+                                <li><i class="fa fa-check-circle-o"></i>Cras justo odio, dapibus ac facilisis</li>
+                                <li><i class="fa fa-check-circle-o"></i>Fringilla Mattis</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-6">
+                        <div class="single_plans">
+                            <ul>
+                                <li><i class="fa fa-check-circle-o"></i>Maecenas faucibus mollis interdum</li>
+                                <li><i class="fa fa-check-circle-o"></i>Cras justo odio, dapibus ac facilisis</li>
+                                <li><i class="fa fa-check-circle-o"></i>Fringilla Mattis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Plans Section -->
+
+        <section id="healp" class="text-center">
+            <div class="container">
+                <div class="healp_contant">
+                    <i class="fa fa-life-ring"></i>
+                    <h2>Need Help?</h2>
+                    <div class="separator"></div>
+                    <p>Contact our Customer Support that is always ready to help you with any possible questions, problems or information.</p>
+                    <a href="">support@wapik.com</a>
+                </div>
+            </div>
+        </section><!-- End Healp Section -->
+
+
+        <section id="like">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="single_like">
+                            <h2>Do You Like Wapik? Download it Now</h2>
+                            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                        <div class="single_like_btn">
+                            <a href="" class="btn btn-primary btn-larg">download now! - FREE forever</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Footer-->
+        <footer id="footer">
+            <div class="container">
+			
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="single_footer">
+                            <h2>wapik</h2>
+                            <ul>
+                                <li><a href="">@: hi@wapik.com</a></li>
+                                <li><a href="">p: +62 202 555 0117</a></li>
+                                <li><a href="">a: 610 Overlook Circle Suite 323</a></li>
+                                <li><a href="">Kalamazoo, MI 49009</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="single_footer">
+                            <h2>Company</h2>
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Pricing</a></li>
+                                <li><a href="">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="single_footer">
+                            <h2>Others</h2>
+                            <ul>
+                                <li><a href="">Help & Support</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Terms</a></li>
+                                <li><a href="">Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="single_footer">
+                            <h2>Newsletter</h2>
+                            <p>Subscribe to our newsletter and get all the cool news</p>
+
+                            <form class="navbar-form navbar-left email_sender" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                                <button type="submit" ><i class="fa fa-paper-plane-o"></i></button>
+                            </form>
+
+                        </div>
+                    </div>
+					
+                </div>
+
+                <div class="footer_bottom">
+                    <div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="single_footer_bottom">
+							   <p class="wow zoomIn" data-wow-duration="1s">Made with <i class="fa fa-heart"></i> by <a href="http://bootstrapthemes.co">Bootstrap Themes</a>2016. All Rights Reserved</p>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="single_footer_bottom pull-right">
+								<ul>
+									<li><a href="" class="s_f_1"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="" class="s_f_2"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="" class="s_f_3"><i class="fa fa-instagram"></i></a></li>
+									<li><a href="" class="s_f_4"><i class="fa fa-dribbble"></i></a></li>
+									<li><a href="" class="s_f_5"><i class="fa fa-github"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+                </div><!-- End footer bottom -->
+            </div>
+        </footer>
+
+
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
